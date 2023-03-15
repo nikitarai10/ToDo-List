@@ -12,7 +12,7 @@ header{
     font-size: 1.5rem;
 }
 header,
-form{
+.formdiv{
     min-height: 20vh;
     display: flex;
     align-items: center;
@@ -35,6 +35,15 @@ form button{
 form button:hover{
     background: #d88771;
     color: white;
+}
+
+.text
+{
+    margin: 2rem 0;
+}
+textarea{
+    height: 4em;
+    width: 34em;
 }
 .todo-container
 {
@@ -93,6 +102,7 @@ form button:hover{
 }
 select
 {
+    flex: 1;
     -webkit-appearance:none;
     -moz-appearance: none;
     outline: none;
@@ -105,7 +115,8 @@ select
 }
 .select
 {
-    margin: 1rem;
+    display: flex;
+    margin: 1rem 0;
     position: relative;
     overflow: hidden;
 }
